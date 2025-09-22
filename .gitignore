@@ -1,0 +1,37 @@
+# ------------------------
+# Python / Virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+env*/
+.venv/
+
+# ------------------------
+# Airflow
+logs/
+airflow.cfg
+unittests.cfg
+
+# ------------------------
+# Data (ignore heavy datasets)
+data/raw/
+data/unzipped/
+data/augmented/
+data/split/
+data/final_export/
+data/yolo_format/
+data/reports/
+
+# ------------------------
+# Keep only configs (YAML/TXT) for reference
+!data/*.yaml
+!data/*.txt
+
+# ------------------------
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+opencv-python
+ultralytics
+numpy
+pandas
+matplotlib
+scikit-learn
+albumentations
+PyYAML
